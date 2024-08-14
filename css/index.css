@@ -116,7 +116,38 @@
 
         }
         & #experiencias {
-            height: 100vh;
+            & h2 {
+              font-size: 48px;
+            }
+            & ul{
+              display: flex;
+              gap: 16px;
+              & li {
+                flex: 1;
+                padding: 12px;
+                border-radius: 10px;
+                & img {
+                  width: 100%;
+                  aspect-ratio: 1;
+                }
+                & h5{
+                  margin-top: 16px;
+                  font-size: 20px;
+                  color:aqua
+                  & span {
+                    display: block;
+                    font-size: 14px;
+                    color: white
+
+                  }
+                }
+                & h6 {
+                  color: white;
+                  margin-top: 6px;
+                }
+                background-color: red;
+              }
+            }
         }
         & #projetos {
             height: 100vh;
